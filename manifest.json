@@ -1,0 +1,20 @@
+{
+    "name": "Testing",
+    "description" : "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://translate.google.com/*"
+            ],
+            "js": ["app.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "62837-instagram-icons-photography-computer-logo-icon.png"
+    }
+  }
